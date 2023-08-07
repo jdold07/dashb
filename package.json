@@ -1,13 +1,26 @@
 {
-  "name": "hl-dash",
+  "name": "@tpstech/dashb",
+  "version": "0.0.2",
+  "description": "A Homelab style dashboard created with Astro & SolidJS because I couldn't find one that I was totally happy with amongst the existing usual suspects.",
+  "repository": {
+    "type": "git",
+    "url": "tba",
+    "directory": "dashb"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "tpstech",
+    "email": "dashb@tpstech.dev",
+    "url": "https://dashb.tpstech.dev"
+  },
   "type": "module",
-  "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "astro": "astro",
     "build": "astro build",
+    "dev": "astro dev",
     "preview": "astro preview",
-    "astro": "astro"
+    "release": "standard-version",
+    "start": "astro dev"
   },
   "dependencies": {
     "@astrojs/solid-js": "^2.2.0",
@@ -28,6 +41,7 @@
     "prettier-plugin-astro": "^0.11.0",
     "prettier-plugin-packagejson": "^2.4.5",
     "prettier-plugin-tailwindcss": "^0.4.1",
+    "standard-version": "^9.5.0",
     "typescript": "^5.1.6"
   }
 }
