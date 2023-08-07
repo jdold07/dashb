@@ -1,0 +1,12 @@
+{
+  "printWidth": 120,
+  "semi": false,
+  "singleAttributePerLine": true,
+  "tailwindFunctions": ["clsx", "twMerge", "cva", "mergeClasses", "tw"],
+  "tailwindConfig": "./tailwind.config.cjs",
+  "plugins": [
+    "/Users/tpstech/Developer/hl-dash/node_modules/prettier-plugin-packagejson/lib/index.js",
+    "/Users/tpstech/Developer/hl-dash/node_modules/prettier-plugin-astro/dist/index.js",
+    "/Users/tpstech/Developer/hl-dash/node_modules/prettier-plugin-tailwindcss/dist/index.js"
+  ]
+}
