@@ -1,6 +1,6 @@
 {
   "name": "@tpstech/dashb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Homelab style dashboard created with Astro & SolidJS because I couldn't find one that I was totally happy with amongst the existing usual suspects.",
   "repository": {
     "type": "git",
